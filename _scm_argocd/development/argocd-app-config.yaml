@@ -10,7 +10,7 @@ spec:
   source:
     repoURL: https://github.com/trailblazer04/ArgoCD.git
     targetRevision: main
-    path: nginx-app
+    path: apps/nginx-app/development
   destination:
     server: https://kubernetes.default.svc
     namespace: default
